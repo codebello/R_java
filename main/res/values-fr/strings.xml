@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ma 1ére Application</string>
+
+    <string-array name="couleurs">
+        <item>Blanc</item>
+        <item>Rouge</item>
+        <item>Vert</item>
+        <item>Bleu</item>
+        <item>Noir</item>
+    </string-array>
+
+    <string name="et_hint_prenom">Merci de saisir votre prénom...</string>
+    <string name="et_hint_nom">Merci de saisir votre nom...</string>
+    <string name="et_hint_naissance">Merci de saisir votre date de naissance</string>
+    <string name="et_hint_marocain">Marocain</string>
+    <string name="et_hint_etranger">Etranger</string>
+    <string name="et_hint_nationalite">Nationalité</string>
+    <string name="et_hint_loisirs">Loisirs</string>
+    <string name="et_hint_sport">Sport</string>
+    <string name="et_hint_cinema">Cinéma</string>
+    <string name="et_hint_jeux">jeux Vidéos</string>
+    <string name="et_hint_email">Merci de saisir votre email</string>
+    <string name="et_hint_password">Merci de saisir votre mot de passe</string>
+    <string name="et_hint_inscription">S\'inscrire</string>
+    <string name="rd_nationalite_obligatoire">Merci de choisir votre nationalité</string>
+    <string name="erreur">Erreur</string>
+    <string name="prenom">Prénom: </string>
+    <string name="nom">Nom: </string>
+    <string name="email">Email: </string>
+    <string name="password">Mot de passe: </string>
+    <string name="nationalite">Nationalité: </string>
+    <string name="loisirs">Loisirs: </string>
+    <string name="ok">OK</string>
+    <string name="infos">Infos</string>
+    <string name="non">Non</string>
+    <string name="annuler">Annuler</string>
+</resources>

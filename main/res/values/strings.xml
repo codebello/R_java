@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">My 1st App</string>
+
+    <string-array name="couleurs">
+        <item>White</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Black</item>
+    </string-array>
+
+    <string name="et_hint_prenom">Please, enter your first name...</string>
+    <string name="et_hint_nom">Please, enter your last name...</string>
+    <string name="et_hint_naissance">Please, enter your birthday</string>
+    <string name="et_hint_marocain">Moroccan</string>
+    <string name="et_hint_etranger">Foreign</string>
+    <string name="et_hint_nationalite">Nationality</string>
+    <string name="et_hint_loisirs">Hobbies</string>
+    <string name="et_hint_sport">Sport</string>
+    <string name="et_hint_cinema">Cinema</string>
+    <string name="et_hint_jeux">Videos Games</string>
+    <string name="et_hint_email">Please, enter your email</string>
+    <string name="et_hint_password">Please, enter your password</string>
+    <string name="et_hint_inscription">Sign Up</string>
+    <string name="rd_nationalite_obligatoire">Please, select your nationality</string>
+    <string name="erreur">Error</string>
+    <string name="prenom">First name: </string>
+    <string name="nom">Last name: </string>
+    <string name="email">Email: </string>
+    <string name="password">Password: </string>
+    <string name="nationalite">Nationality: </string>
+    <string name="loisirs">Hobbies: </string>
+    <string name="ok">OK</string>
+    <string name="infos">Infos</string>
+    <string name="non">Non</string>
+    <string name="annuler">Annuler</string>
+
+</resources>

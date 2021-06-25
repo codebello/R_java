@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dim_root_padding">15dp</dimen>
+    <dimen name="dim_text_taille_1">15sp</dimen>
+    <dimen name="dim_text_taille_2">20sp</dimen>
+    <dimen name="dim_text_taille_3">17sp</dimen>
+    <dimen name="dim_button_padding">7dp</dimen>
+</resources>

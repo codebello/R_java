@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dim_root_padding"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etPrenom"
+        style="@style/my_custom_style_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_hint_prenom"></EditText>
+
+    <EditText
+        android:id="@+id/etNom"
+        style="@style/my_custom_style_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_hint_nom"></EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/my_custom_style_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/et_hint_nationalite"></TextView>
+
+        <RadioGroup
+            android:id="@+id/rgNationalite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rdMarocain"
+                style="@style/my_custom_style_checked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/et_hint_marocain"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/rdEtranger"
+                style="@style/my_custom_style_checked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/et_hint_etranger"></RadioButton>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/my_custom_style_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/et_hint_loisirs"></TextView>
+
+        <CheckBox
+            android:id="@+id/cbSport"
+            style="@style/my_custom_style_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/et_hint_sport"></CheckBox>
+        <CheckBox
+            android:id="@+id/cbCinema"
+            style="@style/my_custom_style_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/et_hint_cinema"></CheckBox>
+        <CheckBox
+            android:id="@+id/cbJeux"
+            style="@style/my_custom_style_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/et_hint_jeux"></CheckBox>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etEmail"
+        style="@style/my_custom_style_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_hint_email"
+        android:inputType="textEmailAddress"></EditText>
+
+    <EditText
+        android:id="@+id/etPassword"
+        style="@style/my_custom_style_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_hint_password"
+        android:inputType="textPassword"></EditText>
+
+    <Button
+        android:id="@+id/btnInscription"
+        style="@style/my_custom_style_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/et_hint_inscription"></Button>
+
+</LinearLayout>

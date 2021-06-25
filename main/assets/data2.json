@@ -1,0 +1,10 @@
+[
+  "Salut",
+  10,
+  true,
+  {
+    "Nom": "Youssef",
+    "Prenom": "Ahmed",
+    "Age": 23
+  }
+]
